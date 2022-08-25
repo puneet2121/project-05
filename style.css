@@ -4,12 +4,29 @@
 .container {
  
   background-image: url(./assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 125%;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  
 }
+
+
 nav {
   display: flex;
   color:white;
   background: black;
-  margin-bottom: 110px;
+  margin-top: -10px;
+  margin-bottom: 150px;
 }
 .list {
   display: flex;
@@ -25,7 +42,7 @@ nav {
 .list-item {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 47px;
   font-size: 15px;
 }
@@ -46,19 +63,23 @@ nav {
   font-size: 46px;
   width: 800px;
   text-align: center;
+  
 }
 .hero-description{
   margin-top: -48px;
   font-size: 24px;
   width: 650px;
   margin-left: 58px;
+  margin-bottom: 55px;
 }
 .button-large {
   background: rgba(186,12,197,255);
   color: white;
-  width: 280px;
+  width: 290px;
   height: 50px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
-  margin-bottom: 320px;
+  border-radius: 10px;
+  margin-bottom: 291px;
+  border:none ;
 }
