@@ -1,5 +1,5 @@
 # project-05
-## A webmade made using HTML and Css deployed with netlify
+## A webpage made using HTML and Css deployed with netlify
 
 ## webpage link 
 [link](https://project-05-puneet.netlify.app/)
